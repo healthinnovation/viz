@@ -28,7 +28,7 @@
       display: none;
     }
     .active {
-      background-color: #4299e1;
+      background-color: #0f6073;
       color: white;
     }
     .active:hover {
@@ -37,6 +37,19 @@
   </style>
 </head>
 <body><header class="text-gray-700 body-font sticky top-0 bg-white z-10">
+
+  <style>
+   body{
+      background-color:#0f6073;
+      margin-top:0px;
+      margin-left:0px;
+   }
+
+
+</style>
+
+
+
   <div
     class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
   >
@@ -70,20 +83,20 @@
       >
       
       <a
-        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-projects"
-        >Projects</a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-dashboards"
+        >Dashboards</a
+      >
+      
+      <a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-graficos"
+        >Graficos</a
       >
       
       
       <a
-      href="https://example.com"
+      href="https://imtavh.cayetano.edu.pe/es/investigacion/laboratorios/laboratorio-de-innovaci%C3%B3n-en-salud.html"
       class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900"
-      >ABCDE</a>
-      
-      <a
-      href="https://example.com"
-      class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900"
-      >External</a>
+      >LIS</a>
       
     </nav>
   </div>
@@ -92,7 +105,7 @@
 
 <section class="text-gray-700 body-font">
   <div class="container px-5 py-8 mx-auto">
-    <h1 class="text-2xl font-bold my-4">My Startup</h1>
+    <h1 class="text-2xl font-bold my-4">Exceso de muertes - Perú</h1>
     <div>
       
     </div>
@@ -184,7 +197,7 @@
 
 
 <script>
-  const allTypes = ["all",  "projects",];
+  const allTypes = ["all",  "dashboards","graficos",];
   const filter = (event, type) => {
     const isActive = event.target.classList.contains("active");
 
