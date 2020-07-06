@@ -3,27 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/dashboards/covid19/</loc>
+    <loc>/viz/dashboards/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/dashboards/</loc>
+    <loc>/viz/graficos/excess_deaths/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/graficos/excess_deaths/</loc>
+    <loc>/viz/graficos/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/graficos/</loc>
+    <loc>/viz/dashboards/covid19/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/viz/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
